@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 
 import Card from '../UI/Card';
+import { ProductsContext } from '../../context/products-context';
 import './ProductItem.css';
-import { ProductsContext } from '../../context/products-context'
 
 const ProductItem = props => {
 
